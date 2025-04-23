@@ -1,7 +1,7 @@
 # K23CNT3 - Phạm Tuấn Anh - NETCORE (8.X)
 Phát triển web với công nghệ .Net
 # Nội dung học phần
-#Lesson01:
+# Lesson01:
 Những kiến thức cơ bản cần thiết / Ứng dụng đầu tiên
 ◆ Giới thiệu về .NET Core
 ◆ Giới thiệu về ASP.NET Core
