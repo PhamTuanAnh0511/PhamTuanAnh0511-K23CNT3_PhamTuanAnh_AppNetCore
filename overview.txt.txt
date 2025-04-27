@@ -1,0 +1,11 @@
+Nội dung học phân .NET
+- Tổng quan .netcore / asp.net core mvc
+- routing; controller
+- Làm việc vơi view / lazer code
+- Làm việc với model
+- Validation; annotation
+- Truy cập dữ liệu với Entity Framework
+- Layout
+- Session, cookie
+- Authentication / Authorization
+- Web API
