@@ -1,0 +1,32 @@
+﻿@model PtaMotoCategoryViewModel
+
+<h2>Chi tiết mô tô</h2>
+
+<!-- Hiển thị thông tin mô tô -->
+@foreach (var moto in Model.Motos)
+{
+    <div>
+        <h3>@moto.Name</h3>
+        <img src="@Url.Content("~/" + moto.Avatar)" alt="@moto.Name" />
+        <p><strong>Giá bán:</strong> @moto.SalePrice.ToString("C")</p>
+        <p><strong>Mô tả:</strong> @moto.Description</p>
+    </div>
+}
+
+<!-- Hiển thị danh mục mô tô -->
+<div>
+    <h3>Danh mục</h3>
+    @if (Model.Categories != null && Model.Categories.Any())
+    {
+        <ul>
+            @foreach (var category in Model.Categories)
+            {
+                <li>@category.Name</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>Không có danh mục nào.</p>
+    }
+</div>

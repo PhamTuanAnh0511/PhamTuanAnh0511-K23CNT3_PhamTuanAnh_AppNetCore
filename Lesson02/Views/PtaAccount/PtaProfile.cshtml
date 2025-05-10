@@ -1,0 +1,26 @@
+﻿@model Lesson02.Models.PtaAccount
+
+<h2>Hồ sơ của @Model.Name</h2>
+
+<div class="card">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="@Model.Avatar" class="img-fluid rounded-start" alt="@Model.Name">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Name</h5>
+                <p class="card-text"><strong>Email:</strong> @Model.Email</p>
+                <p class="card-text"><strong>SĐT:</strong> @Model.Phone</p>
+                <p class="card-text"><strong>Địa chỉ:</strong> @Model.Address</p>
+                <p class="card-text"><strong>Giới thiệu:</strong> @Model.Bio</p>
+                <p class="card-text"><strong>Giới tính:</strong> @(Model.Gender == 1 ? "Nam" : "Nữ")</p>
+                <p class="card-text"><strong>Sinh nhật:</strong> @Model.Birthday.ToString("dd/MM/yyyy")</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>
+    <a asp-controller="PtaAccount" asp-action="PtaIndex" class="btn btn-danger">Quay lại danh sách</a>
+</p>

@@ -1,0 +1,166 @@
+﻿@model PtaMotoCategoryViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách mô tô</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* Đặt font chữ */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Bố cục chính */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+            gap: 20px; /* Khoảng cách giữa Sidebar và sản phẩm */
+        }
+
+        /* Sidebar danh mục */
+        .sidebar {
+            width: 240px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .sidebar h3 {
+                font-size: 22px;
+                text-align: center;
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            .sidebar ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+                .sidebar ul li {
+                    padding: 10px;
+                    border-bottom: 1px solid #eee;
+                    transition: background-color 0.3s ease;
+                }
+
+                    .sidebar ul li a {
+                        text-decoration: none;
+                        color: #333;
+                        display: block;
+                        font-size: 16px;
+                    }
+
+                        .sidebar ul li a:hover {
+                            background-color: #f0f0f0;
+                            padding-left: 10px;
+                        }
+
+        /* Danh sách mô tô */
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+            flex-grow: 1; /* Đảm bảo phần sản phẩm chiếm không gian còn lại */
+        }
+
+        /* Mỗi thẻ sản phẩm */
+        .moto-item {
+            width: calc(33.333% - 20px); /* Mỗi sản phẩm chiếm 1/3 chiều rộng */
+            border: 1px solid #e0e0e0;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 20px; /* Khoảng cách giữa các sản phẩm */
+        }
+
+            .moto-item:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            }
+
+            .moto-item img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                object-fit: cover;
+                margin-bottom: 10px;
+            }
+
+            .moto-item h3 {
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+            .moto-item p {
+                font-size: 14px;
+                margin-bottom: 10px;
+                color: #777;
+            }
+
+            .moto-item a {
+                text-decoration: none;
+                background-color: #007bff;
+                color: #fff;
+                padding: 10px 15px;
+                border-radius: 5px;
+                font-weight: 500;
+                transition: background-color 0.3s ease;
+            }
+
+                .moto-item a:hover {
+                    background-color: #0056b3;
+                }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar danh mục -->
+        <div class="sidebar">
+            <h3>Danh mục mô tô</h3>
+            <ul>
+                @foreach (var category in Model.Categories)
+                {
+                    <li>
+                        <a href="@Url.Action("FilterByCategory", "PtaProduct", new { categoryId = category.Id })">
+                            @category.Name
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <!-- Danh sách mô tô -->
+        <div class="product-list">
+            <h2>Danh sách mô tô</h2>
+
+            @foreach (var moto in Model.Motos)
+            {
+                <div class="moto-item">
+                    <h3>@moto.Name</h3>
+                    <img src="@Url.Content("~/" + moto.Avatar)" alt="@moto.Name" />
+                    <p><strong>Giá: </strong>@moto.SalePrice.ToString("C")</p>
+                    <p>@moto.Description</p>
+                    <a href="@Url.Action("PtaDetail", "PtaProduct", new { id = moto.Id })">Xem chi tiết</a>
+                </div>
+            }
+        </div>
+    </div>
+
+</body>
+</html>
