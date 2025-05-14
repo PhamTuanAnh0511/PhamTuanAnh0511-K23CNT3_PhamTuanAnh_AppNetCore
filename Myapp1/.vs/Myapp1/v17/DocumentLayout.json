@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\",
+  "WorkspaceRootPath": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\phamtuananh0511-k23cnt3_phamtuananh_appnetcore\\myapp1\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\myapp1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\myapp1\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\phamtuananh0511-k23cnt3_phamtuananh_appnetcore\\myapp1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\myapp1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\phamtuananh0511-k23cnt3_phamtuananh_appnetcore\\myapp1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\phamtuananh0511-k23cnt3_phamtuananh_appnetcore\\myapp1\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\myapp1\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\phamtuananh0511-k23cnt3_phamtuananh_appnetcore\\myapp1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\myapp1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\phamtuananh0511-k23cnt3_phamtuananh_appnetcore\\myapp1\\controllers\\demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:controllers\\demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\phamtuananh0511-k23cnt3_phamtuananh_appnetcore\\myapp1\\controllers\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\myapp1\\controllers\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:controllers\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\phamtuananh0511-k23cnt3_phamtuananh_appnetcore\\myapp1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\myapp1\\controllers\\demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:controllers\\demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\myapp1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6909186-6028-4961-BE3A-74676313EAC8}|Myapp1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,11 +50,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Views\\Product\\Index.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -63,11 +63,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -78,9 +78,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Views\\About\\Index.cshtml",
+              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Views\\About\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\About\\Index.cshtml",
-              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Views\\About\\Index.cshtml",
               "RelativeToolTip": "Views\\About\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -89,11 +89,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "About.cs",
-              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Controllers\\About.cs",
+              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Controllers\\About.cs",
               "RelativeDocumentMoniker": "Controllers\\About.cs",
-              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Controllers\\About.cs",
+              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Controllers\\About.cs",
               "RelativeToolTip": "Controllers\\About.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -102,11 +102,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -115,11 +115,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -128,11 +128,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Views\\Demo\\Index.cshtml",
+              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Views\\Demo\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Demo\\Index.cshtml",
-              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Views\\Demo\\Index.cshtml",
+              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Views\\Demo\\Index.cshtml",
               "RelativeToolTip": "Views\\Demo\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -141,11 +141,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Demo.cs",
-              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Controllers\\Demo.cs",
+              "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Controllers\\Demo.cs",
               "RelativeDocumentMoniker": "Controllers\\Demo.cs",
-              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Controllers\\Demo.cs",
+              "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Controllers\\Demo.cs",
               "RelativeToolTip": "Controllers\\Demo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

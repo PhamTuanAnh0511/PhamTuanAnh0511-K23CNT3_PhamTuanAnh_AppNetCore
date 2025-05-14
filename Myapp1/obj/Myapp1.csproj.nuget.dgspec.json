@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Myapp1.csproj": {}
+    "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Myapp1.csproj": {}
   },
   "projects": {
-    "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Myapp1.csproj": {
+    "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Myapp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Myapp1.csproj",
+        "projectUniqueName": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Myapp1.csproj",
         "projectName": "Myapp1",
-        "projectPath": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\Myapp1.csproj",
+        "projectPath": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\Myapp1.csproj",
         "packagesPath": "C:\\Users\\TUAN ANH\\.nuget\\packages\\",
-        "outputPath": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PhamTuanAnh0511-K23CNT3_PhamTuanAnh_AppNetCore\\Myapp1\\obj\\",
+        "outputPath": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\Myapp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

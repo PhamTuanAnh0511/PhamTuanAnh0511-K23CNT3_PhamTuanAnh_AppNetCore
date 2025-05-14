@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PtaLesson04.props" />
+</Project>

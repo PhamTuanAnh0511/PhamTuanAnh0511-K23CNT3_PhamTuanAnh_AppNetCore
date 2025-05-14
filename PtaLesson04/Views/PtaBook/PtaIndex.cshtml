@@ -1,0 +1,35 @@
+﻿@model IEnumerable<PtaLesson04.Models.PtaBook>
+
+@{
+    ViewData["Title"] = "List Book";
+}
+<a href="/ptabook/ptacreate" class="btn btn-success mb-3">+ Thêm sách mới</a>
+<a asp-action="PtaCreateSubbmit" class="btn btn-success mb-3">+ Thêm sách mới</a>
+
+<h1>Danh sách sách</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>BookID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (PtaBook ptaItem in Model)
+        {
+            <tr>
+                <td>@ptaItem.PtaId</td>
+                <td>@ptaItem.PtaTitle</td>
+                <td>@ptaItem.PtaDescription</td>
+                <td>
+                    <img src="~/images/@ptaItem.PtaImage" alt="@ptaItem.PtaTitle" style="max-width: 100px; height: 150px;" />
+                </td>
+                <td>@ptaItem.PtaPrice</td>
+            </tr>
+        }
+        
+    </tbody>
+</table>

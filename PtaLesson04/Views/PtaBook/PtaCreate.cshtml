@@ -1,0 +1,42 @@
+﻿@model PtaLesson04.Models.PtaBook
+
+@{
+    ViewData["Title"] = "Thêm Sách Mới";
+}
+
+<h2>Thêm Sách Mới</h2>
+
+<form asp-action="PtaCreate" method="post">
+    <div class="form-group">
+        <label asp-for="PtaId"></label>
+        <input asp-for="PtaId" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PtaTitle"></label>
+        <input asp-for="PtaTitle" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PtaDescription"></label>
+        <textarea asp-for="PtaDescription" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PtaImage"></label>
+        <input asp-for="PtaImage" class="form-control" placeholder="book-6.jpg" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PtaPrice"></label>
+        <input asp-for="PtaPrice" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PtaPage"></label>
+        <input asp-for="PtaPage" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="PtaIndex" class="btn btn-secondary">Hủy</a>
+</form>
