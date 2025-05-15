@@ -4,39 +4,43 @@
     ViewData["Title"] = "Thêm Sách Mới";
 }
 
-<h2>Thêm Sách Mới</h2>
+<h2>@ViewData["Title"]</h2>
 
-<form asp-action="PtaCreate" method="post">
-    <div class="form-group">
-        <label asp-for="PtaId"></label>
+<form asp-action="PtaCreateSubmit" method="post" class="mt-3">
+    <div class="mb-3">
+        <label asp-for="PtaId" class="form-label">Mã sách:</label>
         <input asp-for="PtaId" class="form-control" />
+        <span asp-validation-for="PtaId" class="text-danger"></span>
     </div>
-
-    <div class="form-group">
-        <label asp-for="PtaTitle"></label>
+    <div class="mb-3">
+        <label asp-for="PtaTitle" class="form-label">Tiêu đề:</label>
         <input asp-for="PtaTitle" class="form-control" />
+        <span asp-validation-for="PtaTitle" class="text-danger"></span>
     </div>
-
-    <div class="form-group">
-        <label asp-for="PtaDescription"></label>
+    <div class="mb-3">
+        <label asp-for="PtaDescription" class="form-label">Mô tả:</label>
         <textarea asp-for="PtaDescription" class="form-control"></textarea>
+        <span asp-validation-for="PtaDescription" class="text-danger"></span>
     </div>
-
-    <div class="form-group">
-        <label asp-for="PtaImage"></label>
-        <input asp-for="PtaImage" class="form-control" placeholder="book-6.jpg" />
+    <div class="mb-3">
+        <label asp-for="PtaImage" class="form-label">Ảnh:</label>
+        <input asp-for="PtaImage" class="form-control" />
+        <span asp-validation-for="PtaImage" class="text-danger"></span>
     </div>
-
-    <div class="form-group">
-        <label asp-for="PtaPrice"></label>
+    <div class="mb-3">
+        <label asp-for="PtaPrice" class="form-label">Giá:</label>
         <input asp-for="PtaPrice" class="form-control" />
+        <span asp-validation-for="PtaPrice" class="text-danger"></span>
     </div>
-
-    <div class="form-group">
-        <label asp-for="PtaPage"></label>
+    <div class="mb-3">
+        <label asp-for="PtaPage" class="form-label">Số trang:</label>
         <input asp-for="PtaPage" class="form-control" />
+        <span asp-validation-for="PtaPage" class="text-danger"></span>
     </div>
-
-    <button type="submit" class="btn btn-primary">Lưu</button>
-    <a asp-action="PtaIndex" class="btn btn-secondary">Hủy</a>
+    <button type="submit" class="btn btn-primary">Thêm sách</button>
+    <a asp-action="PtaIndex" class="btn btn-secondary">Quay lại</a>
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,28 @@
+﻿@model PtaLesson04.Models.PtaBook
+
+@{
+    ViewData["Title"] = "Xác nhận xoá sách";
+}
+
+<h2 class="text-danger">@ViewData["Title"]</h2>
+
+<div class="alert alert-warning">
+    <p><strong>Bạn có chắc chắn muốn xoá sách:</strong> <span class="text-dark">@Model.PtaTitle</span>?</p>
+</div>
+
+<div class="mb-3">
+    <p><strong>Mô tả:</strong> @Model.PtaDescription</p>
+    <p><strong>Giá:</strong> @Model.PtaPrice.ToString("C")</p>
+    <p><strong>Số trang:</strong> @Model.PtaPage</p>
+</div>
+
+<form asp-action="PtaDeleteConfirm" method="post">
+    <input type="hidden" name="id" value="@Model.PtaId" /> <!-- Truyền PtaId đúng vào đây -->
+    <button type="submit" class="btn btn-danger">🗑️ Xoá</button>
+    <a asp-action="PtaIndex" class="btn btn-secondary">❌ Huỷ</a>
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

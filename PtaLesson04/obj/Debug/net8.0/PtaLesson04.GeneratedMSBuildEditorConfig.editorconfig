@@ -32,8 +32,12 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHRhQm9va1xQdGFDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/K23CNT3_PhamTuanAnh_NetcoreLearning/PtaLesson04/Views/PtaBook/PtaCreateSubbmit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHRhQm9va1xQdGFDcmVhdGVTdWJibWl0LmNzaHRtbA==
+[C:/K23CNT3_PhamTuanAnh_NetcoreLearning/PtaLesson04/Views/PtaBook/PtaDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHRhQm9va1xQdGFEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3_PhamTuanAnh_NetcoreLearning/PtaLesson04/Views/PtaBook/PtaEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHRhQm9va1xQdGFFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/K23CNT3_PhamTuanAnh_NetcoreLearning/PtaLesson04/Views/PtaBook/PtaIndex.cshtml]

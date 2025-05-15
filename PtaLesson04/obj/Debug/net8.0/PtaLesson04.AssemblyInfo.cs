@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PtaLesson04")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c761bc5d10f9ed5c7a280c907759d06602841c75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b511c8777fc7aa6dee380fc1aab5c98c8faac4c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PtaLesson04")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PtaLesson04")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

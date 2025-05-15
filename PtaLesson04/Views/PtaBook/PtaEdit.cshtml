@@ -1,0 +1,47 @@
+﻿@model PtaLesson04.Models.PtaBook
+
+<h2>Chỉnh sửa Sách</h2>
+
+@* Hiển thị lỗi tổng thể *@
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form asp-action="PtaEditSubmit" method="post">
+    @* Hidden để giữ ID *@
+    <input type="hidden" asp-for="PtaId" />
+
+    <div>
+        <label>Tiêu đề:</label>
+        <input asp-for="PtaTitle" class="form-control" />
+        <span asp-validation-for="PtaTitle" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Mô tả:</label>
+        <textarea asp-for="PtaDescription" class="form-control"></textarea>
+        <span asp-validation-for="PtaDescription" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Ảnh:</label>
+        <input asp-for="PtaImage" class="form-control" />
+        <span asp-validation-for="PtaImage" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Giá:</label>
+        <input asp-for="PtaPrice" class="form-control" />
+        <span asp-validation-for="PtaPrice" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Số trang:</label>
+        <input asp-for="PtaPage" class="form-control" />
+        <span asp-validation-for="PtaPage" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+    <a asp-action="PtaIndex" class="btn btn-secondary">Huỷ</a>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

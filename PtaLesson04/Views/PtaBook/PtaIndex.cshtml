@@ -1,35 +1,41 @@
 ﻿@model IEnumerable<PtaLesson04.Models.PtaBook>
 
 @{
-    ViewData["Title"] = "List Book";
+    ViewData["Title"] = "Danh sách sách";
 }
-<a href="/ptabook/ptacreate" class="btn btn-success mb-3">+ Thêm sách mới</a>
-<a asp-action="PtaCreateSubbmit" class="btn btn-success mb-3">+ Thêm sách mới</a>
 
-<h1>Danh sách sách</h1>
-<table class="table table-bordered">
-    <thead>
+<h2>@ViewData["Title"]</h2>
+
+<a asp-action="PtaCreate" class="btn btn-success mb-3">+ Thêm sách mới</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
         <tr>
-            <th>BookID</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Image</th>
-            <th>Price</th>
+            <th>Mã sách</th>
+            <th>Tiêu đề</th>
+            <th>Mô tả</th>
+            <th>Ảnh</th>
+            <th>Giá</th>
+            <th>Hành động</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (PtaBook ptaItem in Model)
+        @foreach (var ptaItem in Model)
         {
             <tr>
                 <td>@ptaItem.PtaId</td>
                 <td>@ptaItem.PtaTitle</td>
                 <td>@ptaItem.PtaDescription</td>
                 <td>
-                    <img src="~/images/@ptaItem.PtaImage" alt="@ptaItem.PtaTitle" style="max-width: 100px; height: 150px;" />
+                    <img src="~/images/@ptaItem.PtaImage" alt="@ptaItem.PtaTitle" class="img-thumbnail" style="max-width: 100px; height: 150px;" />
                 </td>
-                <td>@ptaItem.PtaPrice</td>
+                <td>@ptaItem.PtaPrice.ToString("C")</td>
+                <td>
+                    <a asp-action="PtaEdit" asp-route-id="@ptaItem.PtaId" class="btn btn-warning btn-sm">✏️ Sửa</a>
+                    <a asp-action="PtaDelete" asp-route-id="@ptaItem.PtaId" class="btn btn-danger btn-sm"
+                       onclick="return confirm('Bạn có chắc chắn muốn xoá sách này không?');">🗑️ Xoá</a>
+                </td>
             </tr>
         }
-        
     </tbody>
 </table>
