@@ -1,0 +1,31 @@
+﻿@model IEnumerable<PtaLab05Model.Models.DataModels.PtaMember>
+
+@{
+    ViewData["Title"] = "PtaIndex";
+}
+
+<h1>Danh sách Member</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Fullname</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var PtaItem in Model)
+        {
+            <tr>
+                <td>@PtaItem.PtaMemberID</td>
+                <td>@PtaItem.PtaUsername</td>
+                <td>@PtaItem.PtaPassword</td>
+                <td>@PtaItem.PtaFullname</td>
+                <td>@PtaItem.PtaEmail</td>
+            </tr>
+        }
+    </tbody>
+</table>
