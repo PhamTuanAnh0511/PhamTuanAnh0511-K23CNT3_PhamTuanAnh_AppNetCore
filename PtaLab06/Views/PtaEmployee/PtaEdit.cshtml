@@ -1,0 +1,52 @@
+﻿@model PtaLab06.Models.PtaEmployee
+
+<h1>Sửa nhân viên</h1>
+
+<form asp-action="PtaEdit" method="post" class="mt-4">
+    @Html.AntiForgeryToken()
+
+
+    <input asp-for="PtaId" type="hidden" />
+
+    <div class="input-group mb-3">
+        <span class="input-group-text">👤</span>
+        <input asp-for="PtaName" class="form-control" placeholder="Nhập họ và tên" />
+    </div>
+    <span asp-validation-for="PtaName" class="text-danger"></span>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text">📅</span>
+        <input asp-for="PtaBirthDay" type="date" class="form-control" />
+    </div>
+    <span asp-validation-for="PtaBirthDay" class="text-danger"></span>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text">📧</span>
+        <input asp-for="PtaEmail" type="email" class="form-control" placeholder="example@example.com" />
+    </div>
+    <span asp-validation-for="PtaEmail" class="text-danger"></span>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text">📞</span>
+        <input asp-for="PtaPhone" class="form-control" placeholder="Nhập số điện thoại" />
+    </div>
+    <span asp-validation-for="PtaPhone" class="text-danger"></span>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text">💰</span>
+        <input asp-for="PtaSalary" type="number" min="0" class="form-control" placeholder="Nhập mức lương" />
+    </div>
+    <span asp-validation-for="PtaSalary" class="text-danger"></span>
+
+    <div class="form-check mb-3">
+        <input asp-for="PtaStatus" class="form-check-input" type="checkbox" id="PtaStatus" />
+        <label asp-for="PtaStatus" class="form-check-label">Đang làm việc</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+    <a asp-action="PtaIndex" class="btn btn-secondary ms-2">Hủy</a>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

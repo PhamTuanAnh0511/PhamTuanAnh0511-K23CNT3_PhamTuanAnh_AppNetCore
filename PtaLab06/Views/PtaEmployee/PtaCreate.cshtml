@@ -1,0 +1,53 @@
+﻿@model PtaLab06.Models.PtaEmployee
+
+@{
+    ViewData["Title"] = "Thêm mới nhân viên";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="PtaCreateSubmit" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="name-addon">👤</span>
+        <input asp-for="PtaName" class="form-control" placeholder="Họ và tên" aria-describedby="name-addon" />
+    </div>
+    <span asp-validation-for="PtaName" class="text-danger"></span>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="birthday-addon">📅</span>
+        <input asp-for="PtaBirthDay" type="date" class="form-control" aria-describedby="birthday-addon" />
+    </div>
+    <span asp-validation-for="PtaBirthDay" class="text-danger"></span>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="email-addon">📧</span>
+        <input asp-for="PtaEmail" type="email" class="form-control" placeholder="example@example.com" aria-describedby="email-addon" />
+    </div>
+    <span asp-validation-for="PtaEmail" class="text-danger"></span>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="phone-addon">📞</span>
+        <input asp-for="PtaPhone" class="form-control" placeholder="Số điện thoại" aria-describedby="phone-addon" />
+    </div>
+    <span asp-validation-for="PtaPhone" class="text-danger"></span>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="salary-addon">💰</span>
+        <input asp-for="PtaSalary" type="number" step="0.01" min="0" class="form-control" placeholder="Lương" aria-describedby="salary-addon" />
+    </div>
+    <span asp-validation-for="PtaSalary" class="text-danger"></span>
+
+    <div class="form-check mb-3">
+        <input asp-for="PtaStatus" class="form-check-input" type="checkbox" id="PtaStatus" />
+        <label asp-for="PtaStatus" class="form-check-label">Đang làm việc</label>
+    </div>
+
+    <button type="submit" class="btn btn-success">Lưu</button>
+    <a asp-action="PtaIndex" class="btn btn-secondary ms-2">Hủy</a>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

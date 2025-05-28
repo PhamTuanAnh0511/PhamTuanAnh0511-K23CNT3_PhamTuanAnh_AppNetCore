@@ -1,0 +1,17 @@
+﻿@model PtaLab06.Models.PtaEmployee
+
+<h1>Xác nhận xóa nhân viên</h1>
+
+<p>Bạn có chắc muốn xóa nhân viên: <strong>@Model.PtaName</strong>?</p>
+
+<form asp-action="PtaDelete" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="id" value="@Model.PtaId" />
+
+    <button type="submit" class="btn btn-danger me-2">
+        <i class="bi bi-trash-fill"></i> Xóa
+    </button>
+    <a asp-action="PtaIndex" class="btn btn-secondary">
+        <i class="bi bi-x-circle"></i> Hủy
+    </a>
+</form>

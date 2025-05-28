@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PtaLab06", "PtaLab06.csproj", "{A081A688-685B-42F4-A258-5BC98F516B9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A081A688-685B-42F4-A258-5BC98F516B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A081A688-685B-42F4-A258-5BC98F516B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A081A688-685B-42F4-A258-5BC98F516B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A081A688-685B-42F4-A258-5BC98F516B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35C6A176-C263-489A-8D54-B26570D7CB16}
+	EndGlobalSection
+EndGlobal

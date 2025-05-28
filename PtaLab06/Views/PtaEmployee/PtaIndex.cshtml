@@ -1,0 +1,63 @@
+﻿@model List<PtaLab06.Models.PtaEmployee>
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+    <div class="mb-3 text-end">
+        <a class="btn btn-primary" asp-action="PtaCreate">
+            <i class="bi bi-person-plus-fill"></i> Thêm mới nhân viên
+        </a>
+    </div>
+
+    <table class="table table-bordered table-striped table-hover align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Họ và tên</th>
+                <th>Ngày sinh</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+                <th>Lương</th>
+                <th>Trạng thái</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.PtaId</td>
+                    <td>@emp.PtaName</td>
+                    <td>@emp.PtaBirthDay.ToString("dd/MM/yyyy")</td>
+                    <td>@emp.PtaEmail</td>
+                    <td>@emp.PtaPhone</td>
+                    <td>@emp.PtaSalary.ToString("C0")</td>
+                    <td>
+                        @if (emp.PtaStatus)
+                        {
+                            <span class="badge bg-success">Đang làm</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Nghỉ việc</span>
+                        }
+                    </td>
+                    <td>
+                        <a class="btn btn-sm btn-warning me-1" asp-action="PtaEdit" asp-route-id="@emp.PtaId" title="Sửa">
+                            <i class="bi bi-pencil-square"></i> Sửa
+                        </a>
+                        <a class="btn btn-sm btn-danger" asp-action="PtaDelete" asp-route-id="@emp.PtaId" title="Xóa"
+                           onclick="return confirm('Bạn có chắc muốn xóa nhân viên này?');">
+                            <i class="bi bi-trash-fill"></i> Xóa
+                        </a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
