@@ -1,0 +1,43 @@
+﻿@model PtaLab07.Models.PtaEmployee
+
+@{
+    ViewData["Title"] = "Xóa thông tin sinh viên";
+}
+
+<h1>Xóa thông tin sinh viên</h1>
+
+<h3>Bạn có chắc chắn muốn xóa?</h3>
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.PtaId)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.PtaId)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.PtaName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.PtaName)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.PtaBirthDay)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.PtaBirthDay)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.PtaEmail)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.PtaEmail)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.PtaPhone)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.PtaPhone)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.PtaSalary)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.PtaSalary)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.PtaStatus)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.PtaStatus)</dd>
+    </dl>
+
+    <form asp-action="PtaDelete" method="post">
+       
+        <input type="hidden" asp-for="PtaId" />
+
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="PtaIndex" class=" btn btn-primary ">Back to List</a>
+    </form>
+</div>

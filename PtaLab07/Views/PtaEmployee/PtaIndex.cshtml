@@ -1,0 +1,73 @@
+﻿@model IEnumerable<PtaLab07.Models.PtaEmployee>
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<h1>Danh sách nhân viên</h1>
+
+<p>
+    <a asp-action="PtaCreate" class=" btn btn-primary ">Thêm mới</a>
+
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PtaId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PtaName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PtaBirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PtaEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PtaPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PtaSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PtaStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PtaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PtaName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PtaBirthDay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PtaEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PtaPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PtaSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PtaStatus)
+            </td>
+                <td>
+                    <a asp-action="PtaEdit" asp-route-id="@item.PtaId" class="btn btn-sm btn-primary">Edit</a>
+                    <a asp-action="PtaDetails" asp-route-id="@item.PtaId" class="btn btn-sm btn-info text-white">Details</a>
+                    <a asp-action="PtaDelete" asp-route-id="@item.PtaId" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+
+        </tr>
+}
+    </tbody>
+</table>

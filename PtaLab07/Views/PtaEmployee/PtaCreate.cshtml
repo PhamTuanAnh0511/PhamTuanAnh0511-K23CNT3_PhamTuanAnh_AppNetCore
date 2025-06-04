@@ -1,0 +1,60 @@
+﻿@model PtaLab07.Models.PtaEmployee
+
+@{
+    ViewData["Title"] = "Thêm mới nhân viên";
+}
+
+<h1>Thêm mới nhân viên</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="PtaCreate" method="post">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PtaId" class="control-label"></label>
+                <input asp-for="PtaId" class="form-control" />
+                <span asp-validation-for="PtaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PtaName" class="control-label"></label>
+                <input asp-for="PtaName" class="form-control" />
+                <span asp-validation-for="PtaName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PtaBirthDay" class="control-label"></label>
+                <input asp-for="PtaBirthDay" class="form-control" />
+                <span asp-validation-for="PtaBirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PtaEmail" class="control-label"></label>
+                <input asp-for="PtaEmail" class="form-control" />
+                <span asp-validation-for="PtaEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PtaPhone" class="control-label"></label>
+                <input asp-for="PtaPhone" class="form-control" />
+                <span asp-validation-for="PtaPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PtaSalary" class="control-label"></label>
+                <input asp-for="PtaSalary" class="form-control" />
+                <span asp-validation-for="PtaSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="PtaStatus" /> @Html.DisplayNameFor(model => model.PtaStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="PtaIndex" class=" btn btn-primary ">Back to List</a>
+</div>
+
