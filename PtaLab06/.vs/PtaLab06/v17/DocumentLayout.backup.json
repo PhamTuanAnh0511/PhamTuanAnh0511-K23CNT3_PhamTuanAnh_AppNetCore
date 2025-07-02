@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\controllers\\ptaemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:controllers\\ptaemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\ptahome\\ptaabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\ptahome\\ptaabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\ptaemployee\\ptadelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\ptaemployee\\ptadelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\ptahome\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\ptahome\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\controllers\\ptaemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:controllers\\ptaemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\controllers\\ptahomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +23,16 @@
       "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\ptaemployee\\ptaedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\ptahome\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\ptahome\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\shared\\_ptanavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\shared\\_ptanavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\ptaemployee\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\ptaemployee\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\ptaemployee\\ptadelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\ptaemployee\\ptadelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\ptaemployee\\ptacreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\ptaemployee\\ptacreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\ptahome\\ptaabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\ptahome\\ptaabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\ptaemployee\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\ptaemployee\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\models\\ptaemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,6 +41,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\shared\\_ptalayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\shared\\_ptalayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\shared\\_ptanavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|solutionrelative:views\\shared\\_ptanavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A081A688-685B-42F4-A258-5BC98F516B9A}|PtaLab06.csproj|c:\\k23cnt3_phamtuananh_netcorelearning\\ptalab06\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,81 +70,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PtaDelete.cshtml",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaEmployee\\PtaDelete.cshtml",
               "RelativeDocumentMoniker": "Views\\PtaEmployee\\PtaDelete.cshtml",
               "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaEmployee\\PtaDelete.cshtml",
               "RelativeToolTip": "Views\\PtaEmployee\\PtaDelete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T02:37:55.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T02:37:55.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PtaEdit.cshtml",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaEmployee\\PtaEdit.cshtml",
               "RelativeDocumentMoniker": "Views\\PtaEmployee\\PtaEdit.cshtml",
               "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaEmployee\\PtaEdit.cshtml",
               "RelativeToolTip": "Views\\PtaEmployee\\PtaEdit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T02:36:59.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T02:36:59.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "PtaCreate.cshtml",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaEmployee\\PtaCreate.cshtml",
               "RelativeDocumentMoniker": "Views\\PtaEmployee\\PtaCreate.cshtml",
               "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaEmployee\\PtaCreate.cshtml",
               "RelativeToolTip": "Views\\PtaEmployee\\PtaCreate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T02:24:26.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T02:24:26.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PtaIndex.cshtml",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaEmployee\\PtaIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\PtaEmployee\\PtaIndex.cshtml",
               "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaEmployee\\PtaIndex.cshtml",
               "RelativeToolTip": "Views\\PtaEmployee\\PtaIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T02:22:32.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T02:22:32.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PtaEmployeeController.cs",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Controllers\\PtaEmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\PtaEmployeeController.cs",
               "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Controllers\\PtaEmployeeController.cs",
               "RelativeToolTip": "Controllers\\PtaEmployeeController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAswDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAiwEsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T02:16:24.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "PtaEmployee.cs",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Models\\PtaEmployee.cs",
               "RelativeDocumentMoniker": "Models\\PtaEmployee.cs",
               "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Models\\PtaEmployee.cs",
               "RelativeToolTip": "Models\\PtaEmployee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T02:13:36.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T02:13:36.91Z"
             },
             {
               "$type": "Document",
@@ -156,12 +151,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwBAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T01:57:31.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T01:57:31.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PtaIndex.cshtml",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaHome\\PtaIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\PtaHome\\PtaIndex.cshtml",
@@ -174,33 +168,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "PtaAbout.cshtml",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaHome\\PtaAbout.cshtml",
               "RelativeDocumentMoniker": "Views\\PtaHome\\PtaAbout.cshtml",
               "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\PtaHome\\PtaAbout.cshtml",
               "RelativeToolTip": "Views\\PtaHome\\PtaAbout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-28T01:44:28.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PtaHomeController.cs",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Controllers\\PtaHomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\PtaHomeController.cs",
               "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Controllers\\PtaHomeController.cs",
               "RelativeToolTip": "Controllers\\PtaHomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T01:42:50.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T01:42:50.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "_PtaNavBar.cshtml",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\Shared\\_PtaNavBar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_PtaNavBar.cshtml",
@@ -208,21 +201,19 @@
               "RelativeToolTip": "Views\\Shared\\_PtaNavBar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAACIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T01:39:55.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T01:39:55.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "_PtaLayout.cshtml",
               "DocumentMoniker": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\Shared\\_PtaLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_PtaLayout.cshtml",
               "ToolTip": "C:\\K23CNT3_PhamTuanAnh_NetcoreLearning\\PtaLab06\\Views\\Shared\\_PtaLayout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_PtaLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T01:37:47.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T01:37:47.336Z"
             },
             {
               "$type": "Document",
@@ -234,8 +225,7 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T01:37:22.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T01:37:22.882Z"
             }
           ]
         }

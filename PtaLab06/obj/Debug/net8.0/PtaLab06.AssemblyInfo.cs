@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PtaLab06")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e133d6aa4873f4b033cb2589d01f34d1cb02c242")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91db5a6875fb682008abc22f6a1050f0b3fa0b2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PtaLab06")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PtaLab06")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
