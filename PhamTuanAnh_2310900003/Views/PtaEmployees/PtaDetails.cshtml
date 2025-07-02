@@ -1,0 +1,30 @@
+﻿@model PhamTuanAnh_2310900003.Models.PtaEmployee
+
+@{
+    ViewData["Title"] = "Chi tiết nhân viên";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+    <dl class="row">
+        <dt class="col-sm-3">Họ tên</dt>
+        <dd class="col-sm-9">@Model.PtaEmpName</dd>
+
+        <dt class="col-sm-3">Trình độ</dt>
+        <dd class="col-sm-9">@Model.PtaEmpLevel</dd>
+
+        <dt class="col-sm-3">Ngày bắt đầu</dt>
+        <dd class="col-sm-9">
+            @(Model.PtaEmpStartDate?.ToString("dd/MM/yyyy") ?? "")
+        </dd>
+
+        <dt class="col-sm-3">Trạng thái</dt>
+        <dd class="col-sm-9">
+            <span class="badge @(Model.PtaEmpStatus == true ? "bg-success" : "bg-secondary")">
+                @(Model.PtaEmpStatus == true ? "Show" : "Hide")
+            </span>
+        </dd>
+    </dl>
+    <a asp-action="PtaEdit" asp-route-id="@Model.PtaEmpId" class="btn btn-warning">✏️ Sửa</a>
+    <a asp-action="PtaIndex" class="btn btn-secondary">⬅️ Quay lại</a>
+</div>
